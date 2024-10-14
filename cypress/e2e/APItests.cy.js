@@ -16,7 +16,7 @@ describe('Fancode API test automation', () => {
         //Calculate completed percentage
           const completedPercentage = (completedTodos.length / todos.length) * 100;
 
-          //Assert that percentage is greater than 50%
+        //Assert that percentage is greater than 50%
           expect(completedPercentage).to.be.greaterThan(50);
 
         });
