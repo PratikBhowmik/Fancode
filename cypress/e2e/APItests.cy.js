@@ -13,7 +13,7 @@ describe('Fancode API test automation', () => {
           const todos = user.todos;
           const completedTodos = todos.filter(todo => todo.completed === true);
 
-          //Calculate completed percentage
+        //Calculate completed percentage
           const completedPercentage = (completedTodos.length / todos.length) * 100;
 
           //Assert that percentage is greater than 50%
