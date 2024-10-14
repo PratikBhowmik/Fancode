@@ -1,4 +1,4 @@
-describe('Fancode API automation test', () => {
+describe('Fancode API test automation', () => {
   it('tests the API', () => {
     cy.request('https://jsonplaceholder.typicode.com/users')
       .then((response) => {
